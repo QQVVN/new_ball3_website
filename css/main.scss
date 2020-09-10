@@ -197,6 +197,9 @@ body {
   }
   $right_list_width: 7em;
   .search_group {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      right: 4px;
+    }
     position: fixed;
     top: 120px;
     z-index: 100;
@@ -226,6 +229,9 @@ body {
       background: #eaedf4;
     }
     .ul_wrap {
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        right: -12px;
+      }
       position: absolute;
       top: 100%;
       right: 0;
@@ -615,6 +621,9 @@ body {
           }
           .bill_record_d_card {
             position: absolute;
+            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+              position: static;
+            }
           }
           &.big_size {
             width: calc((83.2% - 1.6em) - 6px);

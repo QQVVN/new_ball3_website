@@ -3431,6 +3431,11 @@ header .time_line .time_box.in_status .right_box {
 main ul.my_page {
   display: none;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  main ul.my_page.none {
+    display: none;
+  }
+}
 main ul.my_page.active {
   display: block;
 }
@@ -3523,7 +3528,8 @@ main ul.my_page li:hover p.num, main ul.my_page li.active p.num {
   background: #fff;
   color: #6272cc;
 }
-main ul.my_page li p, main ul.my_page li i {
+main ul.my_page li p,
+main ul.my_page li i {
   display: inline-block;
 }
 main ul.my_page li i {
@@ -3630,6 +3636,11 @@ main.my_page.my_page.my_page .right .wrap {
 main.my_page.my_page.my_page .right .wrap.fixed.fixed.fixed.fixed.fixed.fixed {
   width: calc((78% - 1.6em) - 7px);
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  main.my_page.my_page.my_page .right .wrap.fixed.fixed.fixed.fixed.fixed.fixed {
+    width: 100%;
+  }
+}
 main.my_page.my_page.my_page .right .wrap .game_in {
   font-weight: bold;
   height: 7em;
@@ -3734,7 +3745,7 @@ main.my_page.my_page.my_page .right .wrap .bill_record_d_card .basic_b:before {
   content: "";
   position: absolute;
   right: 0;
-  top: calc(50% + .25em);
+  top: calc(50% + 0.25em);
   transform: translateY(-50%);
   width: 1px;
   background: #fff;
@@ -3774,7 +3785,7 @@ main.my_page.my_page.my_page .right .wrap .bill_record_d_card .b25:before {
   content: "";
   position: absolute;
   right: 0;
-  top: calc(50% + .25em);
+  top: calc(50% + 0.25em);
   transform: translateY(-50%);
   width: 1px;
   background: #fff;
@@ -3876,10 +3887,20 @@ main.my_page.my_page.my_page .right_2 {
   width: 20%;
 }
 
-.q_save_page, .q_trans_page, .q_cash_page, .q_bet_page, .q_rules_page, .q_sup_page {
+.q_save_page,
+.q_trans_page,
+.q_cash_page,
+.q_bet_page,
+.q_rules_page,
+.q_sup_page {
   display: none;
 }
-.q_save_page.active, .q_trans_page.active, .q_cash_page.active, .q_bet_page.active, .q_rules_page.active, .q_sup_page.active {
+.q_save_page.active,
+.q_trans_page.active,
+.q_cash_page.active,
+.q_bet_page.active,
+.q_rules_page.active,
+.q_sup_page.active {
   display: block;
 }
 
@@ -3954,15 +3975,30 @@ main.my_page.my_page.my_page .right_2 {
   position: fixed;
   top: 9.927em;
   right: 0;
-  -ms-transform: translateX(-50%);
   z-index: 5;
-  padding: 0 calc(.8em + 8px) 0 0.8em;
+  padding: 0 calc(0.8em + 8px) 0 0.8em;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .rules_type {
+    position: static;
+    transform: translateX(0%);
+    width: 100%;
+    height: 6.643rem;
+    margin-top: 1%;
+    padding: 0;
+    font-size: 0.79rem;
+  }
 }
 .rules_type .row_box {
   background: #fff;
   padding: 0.714em 1em;
   border-radius: 15px;
   box-shadow: 0 0 5px 1px #d9dbef;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .rules_type .row_box {
+    padding: 0.714rem;
+  }
 }
 .rules_type .row {
   overflow: hidden;
@@ -3996,6 +4032,11 @@ main.my_page.my_page.my_page .right_2 {
 .rules_type_coby {
   position: relative;
   margin-top: 0.714em;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .rules_type_coby.none {
+    display: none;
+  }
 }
 
 .rules_ul {
@@ -7738,6 +7779,11 @@ body {
   background: #fff;
   transition: all ease-in-out 0.3s;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .container .search_group {
+    right: 4px;
+  }
+}
 .container .search_group.active {
   transform: translateX(0%);
 }
@@ -7764,6 +7810,11 @@ body {
   line-height: 2em;
   overflow-y: scroll;
   border-radius: 0 0 0 30px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .container .search_group .ul_wrap {
+    right: -12px;
+  }
 }
 .container .search_group .ul_wrap::-webkit-scrollbar {
   width: 5px;
@@ -8175,6 +8226,11 @@ body {
 }
 .container main .right .wrap.fixed.fixed.fixed.fixed .bill_record_d_card {
   position: absolute;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .container main .right .wrap.fixed.fixed.fixed.fixed .bill_record_d_card {
+    position: static;
+  }
 }
 .container main .right .wrap.fixed.fixed.fixed.fixed.big_size {
   width: calc((83.2% - 1.6em) - 6px);
