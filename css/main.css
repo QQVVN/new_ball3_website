@@ -8,13 +8,23 @@
 
 @font-face {
   font-family: "my_font";
-  src: local("微軟正黑體");
+  src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei");
   unicode-range: U+4E00-9FFF, U+2E80-2EFF, U+0020-007F;
 }
 @font-face {
   font-family: "my_font";
   src: url(../font/Bahnschrift.TTF);
   unicode-range: U+0020-007F;
+}
+@font-face {
+  font-family: "my_font";
+  src: url(../font/Bahnschrift.TTF);
+  unicode-range: U+0040;
+}
+@font-face {
+  font-family: "my_font";
+  src: url(../font/Bahnschrift.TTF);
+  unicode-range: U+0024;
 }
 p,
 button,
@@ -8158,11 +8168,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   height: 797px;
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .container main {
-    position: static;
-  }
 }
 .container main.live_mode {
   width: 1350px;
