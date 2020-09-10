@@ -2385,6 +2385,11 @@ header .time_line .time_box.in_status .right_box {
   vertical-align: middle;
   position: relative;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .card li div .bb_base {
+    background-size: 100% 95%;
+  }
+}
 .card li div .bb_base .b1 {
   width: 1em;
   height: 1em;
@@ -8253,6 +8258,11 @@ body {
   padding: 0 1.357em 0 1.357em;
   position: relative;
   z-index: 2;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .container main .right .search_bar.none {
+    display: none;
+  }
 }
 .container main .right .search_bar .blue {
   color: #556de7;

@@ -637,6 +637,11 @@ body {
         }
       }
       .search_bar {
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          &.none {
+            display: none;
+          }
+        }
         width: 100%;
         line-height: 3.214em;
         height: 3.214em;
