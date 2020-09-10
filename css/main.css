@@ -2108,6 +2108,11 @@ header .time_line .time_box.in_status .right_box {
   background: #3654ff;
   border: 1px solid transparent;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .card li div.box_8 span:hover:hover:hover, .card li div.box_8 span.active.active.active, .card li div.box_4 span:hover:hover:hover, .card li div.box_4 span.active.active.active, .card li div.box_3 span:hover:hover:hover, .card li div.box_3 span.active.active.active, .card li div.box_2 span:hover:hover:hover, .card li div.box_2 span.active.active.active, .card li div.box_1 span:hover:hover:hover, .card li div.box_1 span.active.active.active {
+    background: #3654ff !important;
+  }
+}
 .card li div.box_8 span:hover:hover:hover p, .card li div.box_8 span.active.active.active p, .card li div.box_4 span:hover:hover:hover p, .card li div.box_4 span.active.active.active p, .card li div.box_3 span:hover:hover:hover p, .card li div.box_3 span.active.active.active p, .card li div.box_2 span:hover:hover:hover p, .card li div.box_2 span.active.active.active p, .card li div.box_1 span:hover:hover:hover p, .card li div.box_1 span.active.active.active p {
   color: #fff;
 }

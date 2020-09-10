@@ -311,6 +311,9 @@ $f_size_14: 1em;
                 span {
                     &:hover:hover:hover,
                     &.active.active.active {
+                        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                            background: #3654ff !important;
+                        }
                         background: #3654ff;
                         p {
                             color: #fff;
