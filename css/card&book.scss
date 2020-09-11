@@ -1,3 +1,15 @@
+@mixin clearfix {
+    &:after,
+    &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    *zoom: 1;
+}
+
 $f_size_16: 1.143em;
 $f_size_15: 1.071em;
 $f_size_14: 1em;
@@ -949,6 +961,65 @@ $f_size_14: 1em;
         }
     }
     .row {
+        // teach
+        @include clearfix;
+        .t {
+            border: 1px solid black;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 1rem 0;
+            line-height: 1rem;
+            @include clearfix;
+            .l {
+                float: left;
+                width: 43%;
+                border: 1px solid black;
+                .text {
+                    width: 40%;
+                    float: right;
+                    text-align: right;
+                }
+                .i {
+                    float: right;
+                    background: url(../image/teach/confrontation.png) no-repeat;
+                    background-size: 200%;
+                    background-position: 0 0;
+                    width: 2rem;
+                    height: 1.7rem;
+                    border: 1px solid lightblue;
+                    margin-top: .15rem;
+                }
+            }
+            .m {
+                float: left;
+                width: 14%;
+                height: 39px;
+                border: 1px solid black;
+            }
+            .r {
+                float: left;
+                width: 43%;
+                height: 39px;
+                border: 1px solid black;
+            }
+        }
+        .m {
+            border: 1px solid black;
+            width: 100%;
+            height: 100%;
+            @include clearfix;
+            float: left;
+        }
+        .b {
+            border: 1px solid black;
+            width: 100%;
+            height: 100%;
+            @include clearfix;
+            float: left;
+        }
+        // teach end
+
         background: #fefefe;
         &:nth-child(even) {
             background: #f8f8f8;
