@@ -961,65 +961,6 @@ $f_size_14: 1em;
         }
     }
     .row {
-        // teach
-        @include clearfix;
-        .t {
-            border: 1px solid black;
-            width: 80%;
-            margin: 0 auto;
-            text-align: center;
-            padding: 1rem 0;
-            line-height: 1rem;
-            @include clearfix;
-            .l {
-                float: left;
-                width: 43%;
-                border: 1px solid black;
-                .text {
-                    width: 40%;
-                    float: right;
-                    text-align: right;
-                }
-                .i {
-                    float: right;
-                    background: url(../image/teach/confrontation.png) no-repeat;
-                    background-size: 200%;
-                    background-position: 0 0;
-                    width: 2rem;
-                    height: 1.7rem;
-                    border: 1px solid lightblue;
-                    margin-top: .15rem;
-                }
-            }
-            .m {
-                float: left;
-                width: 14%;
-                height: 39px;
-                border: 1px solid black;
-            }
-            .r {
-                float: left;
-                width: 43%;
-                height: 39px;
-                border: 1px solid black;
-            }
-        }
-        .m {
-            border: 1px solid black;
-            width: 100%;
-            height: 100%;
-            @include clearfix;
-            float: left;
-        }
-        .b {
-            border: 1px solid black;
-            width: 100%;
-            height: 100%;
-            @include clearfix;
-            float: left;
-        }
-        // teach end
-
         background: #fefefe;
         &:nth-child(even) {
             background: #f8f8f8;
@@ -1040,12 +981,202 @@ $f_size_14: 1em;
         }
     }
     &.normal_mode {
+        &.mb {
+            margin-bottom: 2%;
+        }
         .row {
+            // teach
+            font-weight: bold;
+            color: #4d515d;
+            .t {
+                width: 100%;
+                @include clearfix;
+                margin: 0 auto;
+                text-align: center;
+                padding: 3% 0 0;
+                line-height: 1rem;
+                .l {
+                    float: left;
+                    width: 45%;
+                    height: auto;
+                    .i {
+                        float: right;
+                        background: url(../image/teach/confrontation.png) no-repeat;
+                        background-size: 200%;
+                        background-position: 0 0;
+                        width: 2rem;
+                        height: 1.7rem;
+                        margin-top: 2%;
+                    }
+                    .text {
+                        width: 40%;
+                        float: right;
+                        text-align: right;
+                        margin-right: 8%;
+                        font-size: 1rem;
+                        .tt {
+                            padding-bottom: 5%;
+                        }
+                        .tb {
+                            color: black;
+                            span {
+                                &.red {
+                                    color: #f30d0d;
+                                }
+                                &:nth-child(2) {
+                                    margin-left: 5%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .vs {
+                    float: left;
+                    width: 10%;
+                    height: 35px;
+                    font-size: 0.8rem;
+                    margin-top: 1.2%;
+                }
+                .r {
+                    float: left;
+                    width: 43%;
+                    height: auto;
+                    .i {
+                        float: left;
+                        background: url(../image/teach/confrontation.png) no-repeat;
+                        background-size: 200%;
+                        background-position: -2rem 0;
+                        width: 2rem;
+                        height: 1.7rem;
+                        margin-top: 2%;
+                    }
+                    .text {
+                        width: 40%;
+                        float: left;
+                        text-align: left;
+                        margin-left: 8%;
+                        font-size: 1rem;
+                        .tt {
+                            padding-bottom: 5%;
+                        }
+                        .tb {
+                            span {
+                                &.red {
+                                    color: #f30d0d;
+                                }
+                                &:nth-child(1) {
+                                    margin-right: 5%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .m {
+                width: 97%;
+                @include clearfix;
+                margin: 1% auto 3%;
+                .tml,
+                .tmr {
+                    float: left;
+                    width: 40%;
+                    border-bottom: 1px solid #b9c0d2;
+                    padding: 1.15% 0;
+                }
+                .tmm {
+                    float: left;
+                    width: 20%;
+                    color: #4a5ec5;
+                    border: 1px solid #b9c0d2;
+                    text-align: center;
+                    vertical-align: middle;
+                    border-radius: 20px;
+                    p {
+                        padding-top: 1%;
+                    }
+                }
+            }
+            .b {
+                // border: 1px solid black;
+                width: 90%;
+                margin: 0 auto;
+                padding-bottom: 3%;
+                @include clearfix;
+                line-height: 1.5rem;
+                font-size: 1rem;
+                .blue {
+                    color: #4a5ec5;
+                }
+                .blt,
+                .brt {
+                    width: 28%;
+                    float: left;
+                    padding: 0.5rem 0;
+                    // border: 1px solid black;
+                }
+                .blt {
+                    text-align: right;
+                    padding-right: 3%;
+                }
+                .brt {
+                    padding-left: 3%;
+                }
+                .bm {
+                    float: left;
+                    width: 44%;
+                    text-align: center;
+                    position: relative;
+                    background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
+                    border-radius: 3rem;
+                    padding: 1rem 0.25rem;
+                    .bmbl,
+                    .bmbr {
+                        float: left;
+                        width: 37.5%;
+                        .red {
+                            color: #f30d0d;
+                        }
+                        .gray {
+                            color: #838ba0;
+                        }
+                        // border: 1px solid black;
+                    }
+                    .bmbm {
+                        position: absolute;
+                        text-align: center;
+                        border-radius: 6.25rem;
+                        background: #e9f5ff;
+                        width: 6rem;
+                        height: 6rem;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        .tt {
+                            margin-top: 25%;
+                        }
+                        .tb {
+                            font-size: 1.5rem;
+                        }
+                        .blue {
+                            color: #4a5ec5;
+                        }
+                    }
+                    .bmbmbg {
+                        float: left;
+                        width: 25%;
+                        // border: 1px solid black;
+                    }
+                }
+            }
+            // teach end
             // line-height: calc(3em - 2px);
             // height:3em;
             line-height: calc(2.786em - 2px);
             height: 2.786em;
             position: relative;
+        }
+        .h {
+            height: 100%;
         }
         .title {
             .b24 {

@@ -2679,91 +2679,7 @@ header .time_line .time_box.in_status .right_box {
   color: #005aff;
 }
 .card .row {
-  *zoom: 1;
   background: #fefefe;
-}
-.card .row:after, .card .row:before {
-  content: "";
-  display: table;
-}
-.card .row:after {
-  clear: both;
-}
-.card .row .t {
-  border: 1px solid black;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 1rem 0;
-  line-height: 1rem;
-  *zoom: 1;
-}
-.card .row .t:after, .card .row .t:before {
-  content: "";
-  display: table;
-}
-.card .row .t:after {
-  clear: both;
-}
-.card .row .t .l {
-  float: left;
-  width: 43%;
-  border: 1px solid black;
-}
-.card .row .t .l .text {
-  width: 40%;
-  float: right;
-  text-align: right;
-}
-.card .row .t .l .i {
-  float: right;
-  background: url(../image/teach/confrontation.png) no-repeat;
-  background-size: 200%;
-  background-position: 0 0;
-  width: 2rem;
-  height: 1.7rem;
-  border: 1px solid lightblue;
-  margin-top: 0.15rem;
-}
-.card .row .t .m {
-  float: left;
-  width: 14%;
-  height: 39px;
-  border: 1px solid black;
-}
-.card .row .t .r {
-  float: left;
-  width: 43%;
-  height: 39px;
-  border: 1px solid black;
-}
-.card .row .m {
-  border: 1px solid black;
-  width: 100%;
-  height: 100%;
-  *zoom: 1;
-  float: left;
-}
-.card .row .m:after, .card .row .m:before {
-  content: "";
-  display: table;
-}
-.card .row .m:after {
-  clear: both;
-}
-.card .row .b {
-  border: 1px solid black;
-  width: 100%;
-  height: 100%;
-  *zoom: 1;
-  float: left;
-}
-.card .row .b:after, .card .row .b:before {
-  content: "";
-  display: table;
-}
-.card .row .b:after {
-  clear: both;
 }
 .card .row:nth-child(even) {
   background: #f8f8f8;
@@ -2780,10 +2696,211 @@ header .time_line .time_box.in_status .right_box {
   pointer-events: none;
   line-height: calc(2em - 12px);
 }
+.card.normal_mode.mb {
+  margin-bottom: 2%;
+}
 .card.normal_mode .row {
+  font-weight: bold;
+  color: #4d515d;
   line-height: calc(2.786em - 2px);
   height: 2.786em;
   position: relative;
+}
+.card.normal_mode .row .t {
+  width: 100%;
+  *zoom: 1;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3% 0 0;
+  line-height: 1rem;
+}
+.card.normal_mode .row .t:after, .card.normal_mode .row .t:before {
+  content: "";
+  display: table;
+}
+.card.normal_mode .row .t:after {
+  clear: both;
+}
+.card.normal_mode .row .t .l {
+  float: left;
+  width: 45%;
+  height: auto;
+}
+.card.normal_mode .row .t .l .i {
+  float: right;
+  background: url(../image/teach/confrontation.png) no-repeat;
+  background-size: 200%;
+  background-position: 0 0;
+  width: 2rem;
+  height: 1.7rem;
+  margin-top: 2%;
+}
+.card.normal_mode .row .t .l .text {
+  width: 40%;
+  float: right;
+  text-align: right;
+  margin-right: 8%;
+  font-size: 1rem;
+}
+.card.normal_mode .row .t .l .text .tt {
+  padding-bottom: 5%;
+}
+.card.normal_mode .row .t .l .text .tb {
+  color: black;
+}
+.card.normal_mode .row .t .l .text .tb span.red {
+  color: #f30d0d;
+}
+.card.normal_mode .row .t .l .text .tb span:nth-child(2) {
+  margin-left: 5%;
+}
+.card.normal_mode .row .t .vs {
+  float: left;
+  width: 10%;
+  height: 35px;
+  font-size: 0.8rem;
+  margin-top: 1.2%;
+}
+.card.normal_mode .row .t .r {
+  float: left;
+  width: 43%;
+  height: auto;
+}
+.card.normal_mode .row .t .r .i {
+  float: left;
+  background: url(../image/teach/confrontation.png) no-repeat;
+  background-size: 200%;
+  background-position: -2rem 0;
+  width: 2rem;
+  height: 1.7rem;
+  margin-top: 2%;
+}
+.card.normal_mode .row .t .r .text {
+  width: 40%;
+  float: left;
+  text-align: left;
+  margin-left: 8%;
+  font-size: 1rem;
+}
+.card.normal_mode .row .t .r .text .tt {
+  padding-bottom: 5%;
+}
+.card.normal_mode .row .t .r .text .tb span.red {
+  color: #f30d0d;
+}
+.card.normal_mode .row .t .r .text .tb span:nth-child(1) {
+  margin-right: 5%;
+}
+.card.normal_mode .row .m {
+  width: 97%;
+  *zoom: 1;
+  margin: 1% auto 3%;
+}
+.card.normal_mode .row .m:after, .card.normal_mode .row .m:before {
+  content: "";
+  display: table;
+}
+.card.normal_mode .row .m:after {
+  clear: both;
+}
+.card.normal_mode .row .m .tml,
+.card.normal_mode .row .m .tmr {
+  float: left;
+  width: 40%;
+  border-bottom: 1px solid #b9c0d2;
+  padding: 1.15% 0;
+}
+.card.normal_mode .row .m .tmm {
+  float: left;
+  width: 20%;
+  color: #4a5ec5;
+  border: 1px solid #b9c0d2;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+.card.normal_mode .row .m .tmm p {
+  padding-top: 1%;
+}
+.card.normal_mode .row .b {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+  *zoom: 1;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.card.normal_mode .row .b:after, .card.normal_mode .row .b:before {
+  content: "";
+  display: table;
+}
+.card.normal_mode .row .b:after {
+  clear: both;
+}
+.card.normal_mode .row .b .blue {
+  color: #4a5ec5;
+}
+.card.normal_mode .row .b .blt,
+.card.normal_mode .row .b .brt {
+  width: 28%;
+  float: left;
+  padding: 0.5rem 0;
+}
+.card.normal_mode .row .b .blt {
+  text-align: right;
+  padding-right: 3%;
+}
+.card.normal_mode .row .b .brt {
+  padding-left: 3%;
+}
+.card.normal_mode .row .b .bm {
+  float: left;
+  width: 44%;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
+  border-radius: 3rem;
+  padding: 1rem 0.25rem;
+}
+.card.normal_mode .row .b .bm .bmbl,
+.card.normal_mode .row .b .bm .bmbr {
+  float: left;
+  width: 37.5%;
+}
+.card.normal_mode .row .b .bm .bmbl .red,
+.card.normal_mode .row .b .bm .bmbr .red {
+  color: #f30d0d;
+}
+.card.normal_mode .row .b .bm .bmbl .gray,
+.card.normal_mode .row .b .bm .bmbr .gray {
+  color: #838ba0;
+}
+.card.normal_mode .row .b .bm .bmbm {
+  position: absolute;
+  text-align: center;
+  border-radius: 6.25rem;
+  background: #e9f5ff;
+  width: 6rem;
+  height: 6rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card.normal_mode .row .b .bm .bmbm .tt {
+  margin-top: 25%;
+}
+.card.normal_mode .row .b .bm .bmbm .tb {
+  font-size: 1.5rem;
+}
+.card.normal_mode .row .b .bm .bmbm .blue {
+  color: #4a5ec5;
+}
+.card.normal_mode .row .b .bm .bmbmbg {
+  float: left;
+  width: 25%;
+}
+.card.normal_mode .h {
+  height: 100%;
 }
 .card.normal_mode .title .b24 {
   padding: 0 0.5em 0;
