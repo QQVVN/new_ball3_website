@@ -885,9 +885,13 @@ $f_size_14: 1em;
         .g_name {
             background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%);
             color: #4d515d;
+            padding-left: 1rem;
             i {
                 background-position-y: -2.3em;
             }
+        }
+        .bc {
+            border-bottom: 1px solid #e0e1e3;
         }
         .title {
             background: #f3f3f3;

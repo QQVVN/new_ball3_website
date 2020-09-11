@@ -2644,9 +2644,13 @@ header .time_line .time_box.in_status .right_box {
 .card.gray.gray .g_name {
   background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%);
   color: #4d515d;
+  padding-left: 1rem;
 }
 .card.gray.gray .g_name i {
   background-position-y: -2.3em;
+}
+.card.gray.gray .bc {
+  border-bottom: 1px solid #e0e1e3;
 }
 .card.gray.gray .title {
   background: #f3f3f3;
@@ -8564,6 +8568,30 @@ body {
 .container main .right .search_bar .day_box .day_drow span:hover {
   background: #3145b2;
   color: #fff;
+}
+.container main .right .teach {
+  background: transparent;
+  padding: 0;
+  margin-top: 0.8rem;
+}
+.container main .right .teach p {
+  width: 10%;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to bottom, #dfb995, #b6885f);
+  border: 1px solid #b78960;
+  border-radius: 5px;
+}
+.container main .right .teach p.active, .container main .right .teach p:hover {
+  color: #fff;
+  background: linear-gradient(to bottom, #444f8b, #6a75b2);
+  border: 1px solid #444f8b;
+}
+.container main .right .teach p.active:before, .container main .right .teach p:hover:before {
+  content: "";
+  height: 0;
+  background: #6272cc;
 }
 .container main .right .search_box {
   position: relative;
