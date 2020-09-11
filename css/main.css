@@ -2853,6 +2853,12 @@ header .time_line .time_box.in_status .right_box {
 .card.normal_mode .row .b .brt {
   padding-left: 3%;
 }
+.card.normal_mode .row .b .s1 {
+  padding-top: 1.5rem;
+}
+.card.normal_mode .row .b .s2 {
+  padding-top: 1rem;
+}
 .card.normal_mode .row .b .bm {
   float: left;
   width: 44%;
