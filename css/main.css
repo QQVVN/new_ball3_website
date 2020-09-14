@@ -2843,7 +2843,7 @@ header .time_line .time_box.in_status .right_box {
 }
 .card.normal_mode .row .b .blt,
 .card.normal_mode .row .b .brt {
-  width: 22%;
+  width: 24%;
   float: left;
   padding: 0.5rem 0;
   line-height: 1.3rem;
@@ -2864,12 +2864,12 @@ header .time_line .time_box.in_status .right_box {
 }
 .card.normal_mode .row .b .bm {
   float: left;
-  width: 56%;
+  width: 52%;
   text-align: center;
   position: relative;
   background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
   border-radius: 3rem;
-  padding: 1rem 0.6rem;
+  padding: 1rem 1rem;
 }
 .card.normal_mode .row .b .bm .bmbl,
 .card.normal_mode .row .b .bm .bmbr {
