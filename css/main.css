@@ -3268,7 +3268,6 @@ header .time_line .time_box.in_status .right_box {
 }
 .live_page .live_games .live_content .live_balls, .live_page .live_games .talk_content .live_balls {
   box-shadow: 0px 0px 2px 2px #dae2ff;
-  border-radius: 0 0 12px 12px;
   overflow: hidden;
   display: none;
 }
