@@ -1110,7 +1110,7 @@ $f_size_14: 1em;
                 }
                 .blt,
                 .brt {
-                    width: 26%;
+                    width: 22%;
                     float: left;
                     padding: 0.5rem 0;
                     line-height: 1.3rem;
@@ -1133,12 +1133,12 @@ $f_size_14: 1em;
                 
                 .bm {
                     float: left;
-                    width: 48%;
+                    width: 56%;
                     text-align: center;
                     position: relative;
                     background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
                     border-radius: 3rem;
-                    padding: 1rem 2rem;
+                    padding: 1rem .6rem;
                     .bmbl,
                     .bmbr {
                         float: left;
@@ -1152,10 +1152,10 @@ $f_size_14: 1em;
                         // border: 1px solid black;
                     }
                     .bmbl {
-                        padding-right: 4.5%;
+                        padding-right: 3%;
                     }
                     .bmbr {
-                        padding-left: 4.5%;
+                        padding-left: 3%;
                     }
                     .bmbm {
                         position: absolute;

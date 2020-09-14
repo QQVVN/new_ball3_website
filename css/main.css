@@ -2843,7 +2843,7 @@ header .time_line .time_box.in_status .right_box {
 }
 .card.normal_mode .row .b .blt,
 .card.normal_mode .row .b .brt {
-  width: 26%;
+  width: 22%;
   float: left;
   padding: 0.5rem 0;
   line-height: 1.3rem;
@@ -2864,12 +2864,12 @@ header .time_line .time_box.in_status .right_box {
 }
 .card.normal_mode .row .b .bm {
   float: left;
-  width: 48%;
+  width: 56%;
   text-align: center;
   position: relative;
   background: linear-gradient(to right, #e7eefd 0%, #effbff 40%, #effbff 60%, #e7eefd 100%);
   border-radius: 3rem;
-  padding: 1rem 2rem;
+  padding: 1rem 0.6rem;
 }
 .card.normal_mode .row .b .bm .bmbl,
 .card.normal_mode .row .b .bm .bmbr {
@@ -2885,10 +2885,10 @@ header .time_line .time_box.in_status .right_box {
   color: #838ba0;
 }
 .card.normal_mode .row .b .bm .bmbl {
-  padding-right: 4.5%;
+  padding-right: 3%;
 }
 .card.normal_mode .row .b .bm .bmbr {
-  padding-left: 4.5%;
+  padding-left: 3%;
 }
 .card.normal_mode .row .b .bm .bmbm {
   position: absolute;
