@@ -1091,6 +1091,7 @@ $f_size_14: 1em;
                     text-align: center;
                     vertical-align: middle;
                     border-radius: 20px;
+                    padding: .6rem 0;
                     p {
                         padding-top: 1%;
                     }
@@ -1112,6 +1113,8 @@ $f_size_14: 1em;
                     width: 28%;
                     float: left;
                     padding: 0.5rem 0;
+                    line-height: 1.3rem;
+                    font-size: 0.9rem;
                     // border: 1px solid black;
                 }
                 .blt {
@@ -1162,7 +1165,7 @@ $f_size_14: 1em;
                             margin-top: 25%;
                         }
                         .tb {
-                            font-size: 1.5rem;
+                            font-size: 1.3rem;
                         }
                         .blue {
                             color: #4a5ec5;
@@ -1184,6 +1187,7 @@ $f_size_14: 1em;
         }
         .h {
             height: 100%;
+            line-height: 1rem;
         }
         .title {
             .b24 {

@@ -2818,6 +2818,7 @@ header .time_line .time_box.in_status .right_box {
   text-align: center;
   vertical-align: middle;
   border-radius: 20px;
+  padding: 0.6rem 0;
 }
 .card.normal_mode .row .m .tmm p {
   padding-top: 1%;
@@ -2845,6 +2846,8 @@ header .time_line .time_box.in_status .right_box {
   width: 28%;
   float: left;
   padding: 0.5rem 0;
+  line-height: 1.3rem;
+  font-size: 0.9rem;
 }
 .card.normal_mode .row .b .blt {
   text-align: right;
@@ -2896,7 +2899,7 @@ header .time_line .time_box.in_status .right_box {
   margin-top: 25%;
 }
 .card.normal_mode .row .b .bm .bmbm .tb {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .card.normal_mode .row .b .bm .bmbm .blue {
   color: #4a5ec5;
@@ -2907,6 +2910,7 @@ header .time_line .time_box.in_status .right_box {
 }
 .card.normal_mode .h {
   height: 100%;
+  line-height: 1rem;
 }
 .card.normal_mode .title .b24 {
   padding: 0 0.5em 0;
