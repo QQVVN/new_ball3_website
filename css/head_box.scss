@@ -4,7 +4,7 @@
     width: 100%;
     top: 0;
     line-height: 100%;
-    position: fixed;
+    // position: fixed;
     z-index: 10;
     .time_line {
       background: #2f333d;
@@ -32,7 +32,6 @@
         }
       }
     }
-  
   }
 .h_box {
     width: 100%;
@@ -191,7 +190,8 @@ ul {
     .sign_in{
         &.active{
             text-align: right;
-            padding-right: calc(.8em + 7px);
+            // padding-right: calc(.8em + 7px);
+            padding-right: calc(.8em + 116px);
         }
     }
     .sign_yet {

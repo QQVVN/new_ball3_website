@@ -1358,7 +1358,8 @@
                 border-top: 1px solid #b9c0d2;
                 .t_left{
                     text-align: left;
-                    padding: 0 0 0 .5em;
+                    // padding: 0 0 0 .5em;
+                    padding: 0 .5em;
                 }
                 
                 li{
@@ -1403,7 +1404,7 @@
             }
             .close{
                 line-height: 2.5em;
-                height: 2.5em;
+                // height: 2.5em;
                 display: block;
                 li{
                     border-radius: 0 0 18px 18px;

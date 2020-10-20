@@ -59,6 +59,9 @@
     transform: translateX(-100%);
   }
 }
+html {
+  min-width: 1100px;
+}
 a {
   position: absolute;
   width: 100%;
@@ -167,15 +170,17 @@ body {
   //0624字母大
   //  text-transform:capitalize;
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
+    // width: 80%;
+    // left: 50%;
+    // transform: translateX(-50%);
+    width: 1100px;
+    margin: 0 auto;
   }
-  margin: 7.5em 0 0;
+  // margin: 7.5em 0 0;
   width: 100%;
   height: calc(100% - 7.5em);
   max-height: 835px;
-  position: fixed;
+  // position: fixed;
   z-index: 1;
   overflow: auto;
   //0623
@@ -544,13 +549,16 @@ body {
     transform: translateX(-50%);
     height: 797px;
     &.live_mode {
-      width: 1350px;
+      // width: 1350px;
       .right {
-        width: 65.5%;
-        left: 12.3%;
+        // width: 65.5%;
+        // left: 12.3%;
+        width: 62.5%;
+        left: 15.3%;
       }
       .left {
-        width: 12.3%;
+        // width: 12.3%;
+        width: 15.3%;
         .index {
           li {
             padding: 0 0 0 0.8em;
@@ -609,7 +617,8 @@ body {
           width: 968px;
           z-index: 5;
           // display: none;
-          width: calc((65.5% - 1.6em) - 6px);
+          // width: calc((65.5% - 1.6em) - 6px);
+          width: calc((62.5% - 1.6em) - 6px);
           box-shadow: 0 0 6px 1px #bcc2dc;
           border-radius: 5px;
 
@@ -968,7 +977,7 @@ body {
         margin-top: 0.8rem;
         p {
           width: 10%;
-          padding: .5rem 0;
+          padding: 0.5rem 0;
           text-align: center;
           color: #fff;
           background: linear-gradient(to bottom, #dfb995, #b6885f);

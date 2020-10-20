@@ -246,6 +246,9 @@
             &.sign_in_size{
                 button{
                     width: 11.857em;
+                    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+                        width: 10em;
+                    }
                     &:first-child{
                         margin-right: .5em;
                     }
